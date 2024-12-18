@@ -43,7 +43,7 @@ public class Main{
                 throw new IllegalArgumentException("некорректный знак");
         }
         if(a<1||b<1||a>10||b>10){
-            throw new IllegalArgumentException("Число больше 10!!");
+            throw new IllegalArgumentException("Число больше 10 или меньше 1");
         }
 
 
